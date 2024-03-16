@@ -27,15 +27,14 @@ export const Portfolio = () => {
         open={open}
         onClose={() => setOpen(false)}
       >
-        <DialogTitle id='dialog-title' >Portfolio</DialogTitle>
+        <DialogTitle id='dialog-title' ><strong>Portfolio</strong></DialogTitle>
         <DialogContent id='dialog-desp' style={{ fontSize: "larger" }}>
 
-          <p>Personal Portfolio using HTML CSS JS</p>
-          <p><strong>Time Taken : </strong><p>10 Days</p></p>
+          <h4>Personal Portfolio</h4>
+          <p><strong>Technologies used: &nbsp;HTML-CSS-JS</strong></p>
+          <p><strong>Time Taken : &nbsp;10 Days</strong></p>
           <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>
-
-          {/* Add onClick event handler to the anchor tag */}
-          <p>App URL : <a href="https://vikiverse.vercel.app/" target="blank" onClick={handleCloseDialog}>vikverse.vercel.app</a></p>
+          <p><b>App URL :</b> <a href="https://vikiverse.vercel.app/" target="blank" onClick={handleCloseDialog}>vikverse.vercel.app</a></p>
         </DialogContent>
       </Dialog>
     </>

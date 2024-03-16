@@ -25,14 +25,14 @@ export const QRcode = () => {
         <DialogTitle id='dialog-title'>QR Generator</DialogTitle>
         <DialogContent id='dialog-desp' style={{ fontSize: "larger" }}>
 
-          <p>QR Generator using HTML CSS JS</p>
-          <p><strong>Time Taken : </strong><p>2 Days</p></p>
-          <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>
-
-          <p>
+          <h4>QR Generator</h4>
+          <p><strong>Technologies used: &nbsp;HTML-CSS-JS</strong></p>
+          <p><p><strong>Description:</strong></p>
             A QR code generator is a web tool developed using HTML, CSS, and JavaScript.
             It enables users to create customized QR codes for various data types, such as text, URLs, or contact information.</p>
-          <p>App URL :  Added shortly </p>
+          <p><strong>Time Taken : &nbsp;2 Days</strong></p>
+          <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>          
+          <p><b>App URL</b> :  Added shortly </p>
         </DialogContent>
       </Dialog>
     </>

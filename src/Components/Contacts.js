@@ -14,7 +14,8 @@ function Contacts() {
           <a href="https://www.linkedin.com/in/vigneshwar-v-0b65b322a/" id="linkedin" target="_blank"></a>
           {/* <a href="#" id="facebook"></a> <a href="#" id="twitter"></a> */}
           <div className='personal'>
-            <Number />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Number /><p style={{paddingRight:'50px'}}/>
+              {/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (instead of p tag) */}
             <MailId />
           </div>
         </div>

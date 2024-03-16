@@ -2,7 +2,7 @@ import React from 'react'
 import ProgressBar from '@ramonak/react-progress-bar'
 function Skills() {
     return (
-        <div>
+        <div style={{marginTop:'5%'}}>
             {/* <div class="border" id="skills"></div> */}
 
             <h1  id="skills">Skills Known</h1>
@@ -53,32 +53,6 @@ function Skills() {
                     <div>
                         <h4>QT</h4>
                         <ProgressBar completed={60} labelAlignment='center' transitionDuration='2s' animateOnRender="true" bgColor='#32CD32' />
-                    </div>
-                </div>
-                
-                <h2>Other Skills</h2>
-                <div className='other_skills'>
-                    <h2>Tools Known</h2>    
-                    <ol>
-                    <li>UI/UX Design</li>
-                    <li>Docker [Basic]</li>
-                    <li>Git</li>
-                    <li>Web Hosting</li>
-                    <li>Skill Trainer</li>
-                    </ol>  
-
-                    <div className='Skill_training'>
-                        <p>As a Skill/Student Trainer mentoring a class of 300+ students
-C , C++
-HTML,CSS,JS
-PowerBI , Excel
-SQL - DBMS
-ReactJS
-in Bannari Amman Institute of Technology &
-Basics Of Android Studio
-MIT app Inventor
-in Bannari Amman Vidya Niketan School
-</p>
                     </div>
                 </div>
 

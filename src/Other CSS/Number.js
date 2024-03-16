@@ -30,6 +30,7 @@ export default function PositionedSnackbar() {
       {buttons}
       <Snackbar
         anchorOrigin={{ vertical, horizontal }}
+        autoHideDuration={5000}
         open={open}
         onClose={handleClose}
         message="+919444127645"

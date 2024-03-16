@@ -29,8 +29,9 @@ export default function PositionedSnackbar() {
     <Box sx={{ width: 20 }}>
       {buttons}
       <Snackbar
-        anchorOrigin={{ vertical, horizontal }}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center'}}
         open={open}
+        autoHideDuration={5000}
         onClose={handleClose}
         message="vigneshwarvenugopal24@gmail.com"
         key={vertical + horizontal}

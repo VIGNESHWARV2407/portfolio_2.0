@@ -26,16 +26,16 @@ import {
           <DialogTitle id='dialog-title' >Event Scheduler</DialogTitle>
           <DialogContent id='dialog-desp' style={{fontSize:"larger"}}>
             
-            <p><strong>Event Scheduler using NEXT Js and MUI</strong></p>
-            <p><strong>Time Taken : </strong><p>1 Month</p></p>
-            <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>
-
-            <p>An event scheduler built with Next.js facilitates time and event slot management. 
+            <h4><strong>Event Scheduler</strong></h4>
+            <p><strong>Technologies used: &nbsp;NEXT JS & MUI</strong></p>
+            <p><p><strong>Description:</strong></p>An event scheduler built with Next.js facilitates time and event slot management. 
               Using JS functions users can allocate time slots for events with ease. 
               Next.js enables server-side rendering and dynamic routing for enhanced performance. 
               The scheduler provides real-time updates and seamless navigation for efficient event planning. 
               It offers a user-friendly interface to streamline time management and event organization.</p>
-            <p><strong>App URL</strong> :  Added Shortly</p>
+            <p><strong>Time Taken : &nbsp;1 Month</strong></p>
+            <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>         
+            <p><b>App URL</b> :  Added Shortly</p>
           </DialogContent>
         </Dialog>
       </>
