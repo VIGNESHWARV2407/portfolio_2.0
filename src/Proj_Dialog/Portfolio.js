@@ -34,7 +34,7 @@ export const Portfolio = () => {
           <p><strong>Technologies used: &nbsp;HTML-CSS-JS</strong></p>
           <p><strong>Time Taken : &nbsp;10 Days</strong></p>
           <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>
-          <p><b>App URL :</b> <a href="https://vikiverse.vercel.app/" target="blank" onClick={handleCloseDialog}>vikverse.vercel.app</a></p>
+          <p><b>App URL :</b> <a href="https://vikirealm.vercel.app/" target="blank" onClick={handleCloseDialog}>vikverse.vercel.app</a></p>
         </DialogContent>
       </Dialog>
     </>
