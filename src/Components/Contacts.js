@@ -6,7 +6,7 @@ function Contacts() {
   return (
     <div className='connections'>
       {/* <div class="border" id="contact"></div> */}
-      <h1 style={{marginLeft:'60px'}}>Contacts</h1>
+      <h1>Contacts</h1>
       <div class="contact" id="contact">
         <h2>For Contacts & To get connected with me.,</h2>
         <div class="links">
@@ -14,7 +14,7 @@ function Contacts() {
           <a href="https://www.linkedin.com/in/vigneshwar-v-0b65b322a/" id="linkedin" target="_blank"></a>
           {/* <a href="#" id="facebook"></a> <a href="#" id="twitter"></a> */}
           <div className='personal'>
-            <Number /><p style={{paddingRight:'50px'}}/>
+            <Number /><p style={{paddingRight:'60px'}}/>
               {/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (instead of p tag) */}
             <MailId />
           </div>

@@ -22,7 +22,7 @@ export default function PositionedSnackbar() {
   };
 
   const buttons = (
-        <Button onClick={handleClick({ vertical: 'bottom', horizontal: 'center'})} className={MailStyling.click} sx={{borderRadius:'50%'}}></Button>
+        <Button onClick={handleClick({ vertical: 'bottom', horizontal: 'center'})} className={MailStyling.click} sx={{borderRadius:'50%',padding:'35px'}}></Button>
   );
 
   return (

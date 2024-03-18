@@ -10,23 +10,23 @@ function Projects() {
             <div class="projects"  id="projects">
                 <h1>Projects</h1>
                 <div class="proj">
-                    <div class="proj_hcj" id="pf">
+                    <div class="project" id="pf">
                         <Portfolio />
                         {/* add portfolio 2.0 in advanced project in html portfolio */}
                     </div>
-                    <div class="proj_hcj" id="spd">
+                    <div class="project" id="spd">
                         <Spd />
                     </div>
-                    <div class="proj_hcj" id="pl">
+                    <div class="project" id="pl">
                         <Playblue />
                     </div>
-                    <div class="proj_hcj" id="qr">
+                    <div class="project" id="qr">
                         <QRcode />
                     </div>
-                    <div class="proj_adv" id="oce">
+                    <div class="project" id="oce">
                         <Oce />
                     </div>
-                    <div class="proj_adv" id="es">
+                    <div class="project" id="es">
                         <EventScheduler />
                     </div>
                 </div>
