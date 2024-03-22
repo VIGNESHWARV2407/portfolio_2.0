@@ -310,8 +310,7 @@ button {
 
 @media only screen and (max-width: 800px) {
 
-  .main_content,
-  .project{
+  .main_content{
     margin: 20px;
     margin-right: 20px;
   }
@@ -324,17 +323,22 @@ button {
     justify-content: center; */
     display: grid;
     grid-template-columns: auto auto;
+    display: flex;
+    overflow-x:auto;
   }
 
-  #pf,
-  #spd,
-  #pl,
-  #qr,
-  #oce,
-  #es {
+  /* .project > button
+  {
     width: 150px;
     height: 150px;
+  } */
+
+  .projects
+  {
+    margin-top: 50px;
   }
+
+
 
   .project:hover {
     all: unset;
