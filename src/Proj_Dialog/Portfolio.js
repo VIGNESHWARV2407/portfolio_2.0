@@ -15,23 +15,30 @@ export const Portfolio = () => {
   }
 
   return (
-    <>
+      <>
       <Button style={{
         color: "white",
-        fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+        fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+        background: 'linear-gradient(to right, #f5a623, #f27121)',
+        // width: '180px',height:' 140px',
+        borderRadius:'20px'
       }} onClick={() => setOpen(true)}>Portfolio</Button>
       <Dialog
         open={open}
         onClose={() => setOpen(false)}
       >
-        <DialogTitle id='dialog-title' >Portfolio</DialogTitle>
+        <DialogTitle id='dialog-title' ><strong>Portfolio</strong></DialogTitle>
         <DialogContent id='dialog-desp' style={{ fontSize: "larger" }}>
-          <p>Personal Portfolio using HTML CSS JS</p>
-          {/* Add onClick event handler to the anchor tag */}
-          <p>App URL : <a href="https://vikiverse.vercel.app/" target="blank" onClick={handleCloseDialog}>vikverse.vercel.app</a></p>
+
+          <h4>Personal Portfolio</h4>
+          <p><strong>Technologies used: &nbsp;HTML-CSS-JS</strong></p>
+          <p><strong>Time Taken : &nbsp;10 Days</strong></p>
+          <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>
+          <p><b>App URL :</b> <a href="https://vikirealm.vercel.app/" target="blank" onClick={handleCloseDialog}>https://vikirealm.vercel.app/</a></p>
         </DialogContent>
       </Dialog>
     </>
+    
   )
 }
 

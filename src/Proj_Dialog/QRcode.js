@@ -12,16 +12,27 @@ export const QRcode = () => {
   return (
     <>
       <Button style={{
-      color:"white",
-      fontFamily:"Segoe UI, Tahoma, Geneva, Verdana, sans-serif"}} onClick={() => setOpen(true)}>QR Generator</Button>
+        color: "white",
+        fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+        background: 'linear-gradient(to right, #0073e6, #93d7e0)',
+        // width: '190px',height:' 140px',
+        borderRadius:'20px'
+      }} onClick={() => setOpen(true)}>QR Generator</Button>
       <Dialog
-       open={open} 
-       onClose={() => setOpen(false)} 
-       >
+        open={open}
+        onClose={() => setOpen(false)}
+      >
         <DialogTitle id='dialog-title'>QR Generator</DialogTitle>
-        <DialogContent id='dialog-desp' style={{fontSize:"larger"}}>
-          <p>QR Generator using HTML CSS JS</p>
-          <p>App URL :  Added shortly </p>
+        <DialogContent id='dialog-desp' style={{ fontSize: "larger" }}>
+
+          <h4>QR Generator</h4>
+          <p><strong>Technologies used: &nbsp;HTML-CSS-JS</strong></p>
+          <p><p><strong>Description:</strong></p>
+            A QR code generator is a web tool developed using HTML, CSS, and JavaScript.
+            It enables users to create customized QR codes for various data types, such as text, URLs, or contact information.</p>
+          <p><strong>Time Taken : &nbsp;2 Days</strong></p>
+          <p><strong>Status : </strong><h5 style={{backgroundColor:'green', width:'fit-content',padding:'5px',color:'white',borderRadius:'10px'}}>Completed</h5></p>          
+          <p><b>App URL</b> :  Added shortly </p>
         </DialogContent>
       </Dialog>
     </>

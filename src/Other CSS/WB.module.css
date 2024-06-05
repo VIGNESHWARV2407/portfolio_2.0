@@ -40,6 +40,6 @@
 {
     .typewriting
     {
-        padding: 20%;
+        display: none;
     }
 }

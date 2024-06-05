@@ -5,7 +5,7 @@ import WBStyling from './WB.module.css'
 function WelcomeBoard() {
     const [text] = useTypewriter
         ({
-            words: ['Hello .,','Welcome to VikiVerse'],
+            words: ['Hello', 'Welcome to VikiVerse'],
             loop: {},
             typeSpeed: 200,
             deleteSpeed: 100,
@@ -15,13 +15,13 @@ function WelcomeBoard() {
         <div className={WBStyling.typewriting}>
             <h1 className={WBStyling.content}>
                 <span className={WBStyling.words}>
-                ‎ {text} 
-                {/* invisible character */}
+                    ‎{text}
+                    {/* invisible character */}
                 </span>
                 {/* <Cursor /> */}
             </h1>
             <div className={WBStyling.arrow}>
-            <a href="#profile" className={WBStyling.to_top}></a>
+                <a href="#home" className={WBStyling.to_top}></a>
             </div>
         </div>
 
